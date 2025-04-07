@@ -26,4 +26,5 @@ python examples/benchmark_demo.py
 Please read CONTRIBUTING.md for details on our code of conduct and the process for submitting pull requests.
 
 ## License
-TODO: Add license information
+See LICENSE.md for details.
+

@@ -16,7 +16,7 @@
 ## Development Workflow
 1. Create a new branch for your feature
    ```bash
-   git checkout -b feature/your-feature-name
+   git checkout -b feat/your-feature-name
    ```
 2. Make your changes
 3. Run tests
@@ -32,7 +32,7 @@
 - Reference issues and pull requests when applicable
 
 ## Code Style
-- Follow PEP 8 guidelines
+- Follow black guidelines
 - Use type hints
 - Write docstrings for all functions and classes
 - Maintain consistent code formatting
