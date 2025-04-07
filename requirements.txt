@@ -1,0 +1,24 @@
+# Core Scientific Computing and Machine Learning
+numpy>=1.24.3
+torch>=2.0.0
+torchdyn>=1.0.0
+torchdiffeq>=0.2.3
+tqdm>=4.65.0
+
+# Visualization and Plotting
+matplotlib>=3.7.1
+# matplotlib3d>=0.1.0
+
+# Optional Machine Learning and Path Finding
+scikit-learn>=1.2.2
+scipy>=1.10.1
+
+# Testing and Development
+pytest>=7.3.1
+typing-extensions>=4.5.0
+
+# Optional Optimization and Advanced Algorithms
+networkx>=3.1
+heapq-max>=0.21.0
+
+# Logging and Utilities
