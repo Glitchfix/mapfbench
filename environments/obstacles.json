@@ -1,0 +1,29 @@
+{
+    "name": "Complex Obstacle Environment",
+    "size": [100, 100, 100],
+    "constraints": {
+        "max_velocity": 2,
+        "collision_radius": 1.5,
+        "boundary_behavior": "reflect"
+    },
+    "obstacles": [
+        {
+            "type": "sphere",
+            "center": [25, 25, 25],
+            "radius": 5
+        },
+        {
+            "type": "cube", 
+            "center": [50, 50, 50],
+            "size": [10, 10, 10]
+        },
+        {
+            "type": "cylinder",
+            "center": [75, 75, 75],
+            "radius": 3,
+            "height": 15,
+            "axis": "y"
+        }
+    ],
+    "dynamic_obstacles": []
+}

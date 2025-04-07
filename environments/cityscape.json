@@ -1,0 +1,61 @@
+{
+    "name": "Urban Pathfinding Scenario",
+    "size": [200, 200, 100],
+    "constraints": {
+        "max_velocity": 1.5,
+        "collision_radius": 2.0,
+        "boundary_behavior": "reflect"
+    },
+    "obstacles": [
+        {
+            "type": "cube",
+            "center": [50, 50, 25],
+            "size": [20, 20, 50],
+            "description": "Skyscraper 1"
+        },
+        {
+            "type": "cube", 
+            "center": [100, 50, 25],
+            "size": [20, 20, 50],
+            "description": "Skyscraper 2"
+        },
+        {
+            "type": "cube",
+            "center": [150, 50, 25],
+            "size": [20, 20, 50],
+            "description": "Skyscraper 3"
+        },
+        {
+            "type": "cylinder",
+            "center": [50, 150, 10],
+            "radius": 5,
+            "height": 20,
+            "axis": "y",
+            "description": "Water Tower"
+        },
+        {
+            "type": "cube",
+            "center": [100, 150, 10],
+            "size": [30, 30, 20],
+            "description": "City Hall"
+        },
+        {
+            "type": "sphere",
+            "center": [150, 150, 15],
+            "radius": 8,
+            "description": "Central Park"
+        },
+        {
+            "type": "cube",
+            "center": [25, 100, 5],
+            "size": [10, 100, 10],
+            "description": "Bridge Support 1"
+        },
+        {
+            "type": "cube",
+            "center": [175, 100, 5],
+            "size": [10, 100, 10],
+            "description": "Bridge Support 2"
+        }
+    ]
+}
